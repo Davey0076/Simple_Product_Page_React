@@ -1,19 +1,16 @@
 # Simple Products Page React
 
 ## Description
-This project is a simple React application that displays a products page with details of a specific shoe. It includes two main components: `ShoeType`, which displays the name of the shoe, and `ShoeDetail`, which provides detailed information such as description, color, and size. The `ProductsWrapper` component organizes and renders these child components in a styled wrapper.
-
+This project is a simple React application that displays a products page with details of a specific shoe. It includes two main components: `ShoeType`, which displays the name of the shoe, and `ShoeDetail`, which provides detailed information such as description, color, and size. 
 ## Installation
 To run this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone <your-repo-url>
+    git clone (https://github.com/Davey0076/Simple_Product_Page_React.git)
     ```
-2. **Navigate to the project directory**:
-    ```bash
-    cd simple-products-page-react
-    ```
+2. **Navigate to the project directory**
+    
 3. **Install dependencies**:
     ```bash
     npm install
