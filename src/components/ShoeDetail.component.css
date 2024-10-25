@@ -1,0 +1,89 @@
+.details_wrapper{
+    /* background-color: #ccffcc; */
+    width: 30%;
+    box-shadow: 0 0 0.5px rgba(0, 0, 0, 1);
+    border-radius: 3rem;
+    border: none;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.details_wrapper button{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    align-self: center;
+    border: none;
+    border-radius: 1rem;
+
+}
+
+.details_wrapper button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+#description-header{
+font-weight: 600;
+}
+
+span{
+    font-weight: 600;
+}
+
+.color-wrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+.color-selection-btns{
+    display: flex;
+    gap: .4rem;
+}
+
+#btn-red{
+    font-weight: 600;
+    background-color: red;
+}
+
+#btn-blue{
+    font-weight: 600;
+    background-color: blue;
+}
+
+#btn-green{
+    font-weight: 600;
+    background-color: green;
+}
+
+#btn-black{
+    font-weight: 600;
+    background-color: black;
+}
+
+#btn-red:hover{
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-blue:hover{
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-green:hover{
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-black:hover{
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
