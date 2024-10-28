@@ -67,9 +67,13 @@ button:focus-visible {
   }
 } */
 
-.main-wrapper{
+body{
+  background-color: aqua;
+}
+
+.wrapper{
   display: flex;                 
-  flex-direction: column;         
+  justify-content: center;  
   align-items: center;            
   margin: 20px auto;             
   padding: 20px;                 
@@ -79,5 +83,6 @@ button:focus-visible {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   width: fit-content;
   height: fit-content;
+  justify-content: center;
  
 }
