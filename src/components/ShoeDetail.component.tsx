@@ -16,6 +16,8 @@ function ShoeDetail({ description, color, size }: shoeDetailProp) {
     setCurrentColor(newColor);
   }
 
+
+
   return (
     <div className="details_wrapper">
       <p id='description-header'>Description:</p> 
@@ -33,7 +35,9 @@ function ShoeDetail({ description, color, size }: shoeDetailProp) {
         </div>
       </div>
       <p><span>Size:</span> {size}</p>
-      <button>BUY</button>
+      <button onClick={() => {
+    alert(`You have bought ${currentColor} Nike High Dunks`)
+  }}>BUY</button>
     </div>
   );
 }

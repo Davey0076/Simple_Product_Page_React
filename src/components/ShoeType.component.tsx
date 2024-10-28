@@ -11,6 +11,7 @@ const ShoeType = ({shoeName}: shoeTypesProp) => {
     <div className="shoe-type-wrapper">
         <img src={shoes} alt="Nike shoes" />
         <h2 id='shoe-name'>{shoeName}</h2>
+      
    </div>
   )
 }
